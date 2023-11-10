@@ -15,7 +15,6 @@ function SlideShow(n, carouselIndex) {
     circles[i].className = circles[i].className.replace(" enable", "");
   }
 
-  console.log(circles)
   slides[slidePositions[carouselIndex - 1] - 1].style.display = "block";
   circles[slidePositions[carouselIndex - 1] - 1].className += " enable";
 }
